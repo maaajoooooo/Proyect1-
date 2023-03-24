@@ -23,7 +23,18 @@ if choice == "1":
     chatgpt_response = ai.recipe([which], difficulty_type)
     print(chatgpt_response)
     print(ai)
-job = input("save\n delete\n")
-if job == "delete":
+job = input("save\n delete\n edit recepie\n restart")
+if task == "delete":
     delete == which
     print("This has been deleted")
+if task == "save":
+    save == which
+    print("This has been saved")
+if task == "restart"
+    print("Please restart")
+if task == "edit recepie"
+    ingredients == inout("Which ingredients would you like to change")
+    chatgpt_response = ai.recipe([which], ingredients)
+    print(chatgpt_response)
+    print(ai)
+    
