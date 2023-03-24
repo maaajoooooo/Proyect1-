@@ -29,7 +29,7 @@ if choice == "1":
     chatgpt_response = ai.recipe([which], difficulty_type)
     print(chatgpt_response)
     print(ai)
-task = input("save\n delete\n edit recepie\n restart")
+task = input("save\n delete\n edit recipe\n restart")
 if task == "delete":
     delete == which
     print("This has been deleted")
