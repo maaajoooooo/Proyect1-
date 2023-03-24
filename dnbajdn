@@ -14,6 +14,12 @@ if choice == "2":
     chatgpt_response = ai.recipe([ingredients], difficulty_type)
     print(chatgpt_response)
     print(ai)
+    noyes = input("Do you want to save the recipe? yes/no")
+    if noyes == "yes":
+        save = inout("Give it a name")
+        print("This recepie has been saved, in order to try another recepie please restart")
+    if noyes == "no":
+        print("This recepie hasn't been saved, please restart to try another one")
 #Do the project here
 #New line
 
